@@ -1,0 +1,25 @@
+<import src="../../template/news-item/news-item-template.wxml" />
+
+<view>
+    <swiper indicator-dots="true" autoplay="true" circular="true">
+        <block wx:for="{{imagesPath}}" wx:for-item="item">
+            <swiper-item>
+                <image src="{{item.header_image}}" data-news-id="{{item.header_id}}" catchtap='onPostDetail' ></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+<view class='hotText'>
+    <text>热门推荐</text>
+</view>
+
+<block wx:for="{{content}}" wx:for-item="item">
+    <view bindtap='onPostDetail' data-news-id="{{item.id}}">
+        <template is="newsItem" data="{{...item}}" />
+    </view>
+</block>
+
+<view bindtap='onJumpPublish'>
+    <image class='icon-publish' src='/images/publish.png'></image>
+</view>

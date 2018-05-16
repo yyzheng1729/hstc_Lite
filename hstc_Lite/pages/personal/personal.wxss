@@ -1,0 +1,61 @@
+/* pages/personal/personal.wxss */
+
+.personal-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30rpx;
+    /* border-bottom: 1px solid black; */
+    /* background-image: url('https://hstc-image-1256231252.cos.ap-guangzhou.myqcloud.com/background/bg.png'); */
+}
+
+.personal-img {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50px;
+}
+
+.personal-name {
+    font-size: 45rpx;
+    line-height: 150rpx;
+    margin-left: 12px;
+}
+
+.line {
+    width: 100%;
+    height: 20rpx;
+    background-color: #eee;
+}
+
+.personal-item {
+    display: flex;
+    flex-direction: row;
+    padding: 15rpx 30rpx;
+    border: 1px solid #eee;
+}
+
+.personal-item-img {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.personal-item-text {
+    font-size: 40rpx;
+    margin-left: 10px;
+    line-height: 100rpx; 
+}
+
+.personal-item-right {
+    width: 30rpx;
+    height: 30rpx;
+    margin: auto 0;
+    position: absolute;
+    right: 10px;
+    margin-top: 17px;
+}
+
+.personal-tip{
+    padding-top: 5px;
+    font-size: 25rpx;
+    color: #bebebe;
+    text-align: center;
+}

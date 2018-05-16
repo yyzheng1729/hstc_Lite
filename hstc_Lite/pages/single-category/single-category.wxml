@@ -1,0 +1,11 @@
+<!--pages/single-category/single-category.wxml-->
+
+<import src="../../template/single-category-item/single-category-item-template.wxml" />
+
+<scroll-view class='scroll-single-category' scroll-y="true" scroll-x="false" bindscrolltolower="onScrolltolower">
+    <block wx:for="{{content}}" wx:for-item="item">
+        <view bindtap='onPostDetail' data-news-id="{{item.id}}">
+            <template is="singleCategoryItem" data="{{...item}}" />
+        </view>
+    </block>
+</scroll-view>

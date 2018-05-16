@@ -1,0 +1,10 @@
+<template name="newsItem">
+    <view class='home-container'>
+        <view>
+            <image class='home-image' src='{{home_image}}'></image>
+        </view>
+        <view class='home-text'>
+            <text class='home-title'>{{home_title}}</text>
+        </view>
+    </view>
+</template>

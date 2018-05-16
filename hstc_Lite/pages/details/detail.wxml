@@ -1,0 +1,26 @@
+<!--pages/details/detail.wxml-->
+<import src="../../template/details-item/details-item-template.wxml" />
+<import src="../../template/comments-item/comments-item-template.wxml" />
+
+<view class='container-group'>
+    <template is="detailsItem" data="{{...newsData}}" />
+
+    <view class='comment-group'>
+        <text class='comment-group-title'>评论</text>
+        <block wx:for="{{comments}}" wx:for-item="item">
+            <template is="commentsItem" data="{{...item}}" />
+        </block>
+    </view>
+    <view class='comment-cue'>没有更多评论了...</view>
+</view>
+
+<view class='bottom'>
+    <view class='input-group'>
+        <image src='/images/edit.png' class='icon-edit'></image>
+        <input type="text" cursor-spacing='10' placeholder="写评论..." placeholder-style="color:gray;margin-left:10rpx;" bindblur='onBindblur' bindconfirm="onBindConfirm"></input>
+    </view>
+    <view class='icon-image-group'>
+        <image src='/images/collection.png'></image>
+        <image src='/images/share.png'></image>
+    </view>
+</view>

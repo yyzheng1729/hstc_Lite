@@ -1,0 +1,11 @@
+<template name="detailsItem">
+    <view class='detail-container'>
+        <text class='news-title'>{{home_title}}</text>
+        <view>
+            <text class='news-time'>发表时间：{{public_time}}</text>
+            <text class='news-autor'>作者：{{author}}</text>
+        </view>
+        <image class='news-image' src='{{home_image}}'></image>
+        <text class='news-content'>{{news_content}}</text>
+    </view>
+</template>

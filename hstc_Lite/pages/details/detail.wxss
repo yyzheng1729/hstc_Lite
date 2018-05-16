@@ -1,0 +1,75 @@
+/* pages/details/detail.wxss */
+@import "../../template/details-item/details-item-template.wxss";
+@import "../../template/comments-item/comments-item-template.wxss";
+
+.container-group {
+    margin: 5px 5px 15% 5px;
+}
+
+.comment-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-group-title {
+    font-size: 35rpx;
+    padding: 10px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.comment-cue {
+    text-align: center;
+    color: #8e8e8e;
+    padding: 5px;
+    font-size: 30rpx;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0rpx;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #bebebe;
+    padding:15rpx 0;
+    background-color: white;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    margin: 0 30rpx;
+    position: relative;
+}
+
+.icon-edit {
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    z-index: 5;
+    margin-left: 10px;
+    margin-top: 15rpx;
+    left: 0;
+}
+
+.bottom input {
+    font-size: 30rpx;
+    height: 40px;
+    width: 350rpx;
+    border-radius: 8px;
+    background-color: #eee;
+    padding-left: 70rpx;
+}
+
+.icon-image-group {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5px;
+}
+
+.icon-image-group image {
+    width: 70rpx;
+    height: 70rpx;
+    margin-right: 30rpx;
+}

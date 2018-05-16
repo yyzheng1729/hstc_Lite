@@ -1,0 +1,33 @@
+/* pages/categorys/category.wxss */
+@import "../../template/categories-item/categories-item-template.wxss";
+
+.search-group {
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.search-group icon {
+    margin: auto 5px;
+}
+
+.search-group input {
+    font-size: 23px;
+    width: 100%;
+    height: 30px;
+}
+
+.xx-img {
+    width: 50rpx;
+    height: 50rpx;
+    margin: auto 0 auto 10rpx;
+}
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/homes/home",
+        "pages/details/detail",
+        "pages/personal/personal",
+        "pages/categorys/category",
+        "pages/single-category/single-category",
+        "pages/index/index",
+        "pages/publish/publish",
+        "pages/personal-collection/personal-collection",
+        "pages/personal-info/personal-info"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#cc3333",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "韩师招聘",
+        "backgroundColor": "#f0f0f0",
+        "backgroundTextStyle": "light"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "borderStyle": "black",
+        "color": "#000000",
+        "selectedColor": "#cc3333",
+        "list": [
+            {
+                "pagePath": "pages/homes/home",
+                "text": "首页",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home-select.png"
+            },
+            {
+                "pagePath": "pages/categorys/category",
+                "text": "分类",
+                "iconPath": "/images/category.png",
+                "selectedIconPath": "/images/category-select.png"
+            },
+            {
+                "pagePath": "pages/personal/personal",
+                "text": "个人",
+                "iconPath": "/images/personal.png",
+                "selectedIconPath": "/images/personal-select.png"
+            }
+        ]
+    }
+}

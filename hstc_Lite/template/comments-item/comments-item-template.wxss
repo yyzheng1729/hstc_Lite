@@ -1,0 +1,32 @@
+.comment-item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid #bebebe;
+}
+
+
+.comment-item-head {
+    width: 80rpx;
+    height: 80rpx;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.comment-item-owner{
+    width: 600rpx;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+}
+
+.comment-item-name{
+    font-size: 35rpx;
+}
+
+.comment-item-comment{
+    margin-top:5px;
+    letter-spacing: 1px;
+    color: #8e8e8e;
+}

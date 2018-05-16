@@ -1,0 +1,20 @@
+<!--pages/categorys/category.wxml-->
+<import src="../../template/categories-item/categories-item-template.wxml" />
+
+<view class='search-group'>
+    <icon type="search" size="20"></icon>
+    <input type="text" placeholder="请输入关键字" placeholder-style="color:gray;font-size:16px;" bindfocus="onBindfocus"></input>
+    <image class='xx-img' src='/images/close.png' bindtap="onCancelImgTap" wx:if="{{xxImageShow}}"></image>
+</view>
+
+<view wx:if="{{categoryPageShow}}">
+    <block wx:for="{{category}}" wx:for-item="item">
+        <view bindtap='onJumpMore' data-category-id="{{item.category_id}}" >
+            <template is="categoryItem" data="{{...item}}" />
+        </view>
+    </block>
+</view>
+
+<view class='search-page' wx:if="{{searchPageShow}}">
+    搜索时候显示的页面
+</view>

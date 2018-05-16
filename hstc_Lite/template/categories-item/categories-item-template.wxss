@@ -1,0 +1,36 @@
+.category-page {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #bebebe;
+}
+
+.category-left {
+    width: 250rpx;
+    height: 150rpx;
+    border: 1px solid #eee;
+}
+
+.category-tap{
+    display: flex;
+    flex-direction: column;
+    line-height: 150rpx;
+    margin-left: 15rpx;
+}
+ 
+.category-title {
+    font-size: 38rpx;
+} 
+
+.category-count{
+    color: #6c6c6c;
+    font-size: 28rpx;
+}
+
+.category-right {
+    width: 40rpx;
+    height: 40rpx;
+    position: absolute;
+    right: 10px;
+    margin-top: 50rpx;
+}

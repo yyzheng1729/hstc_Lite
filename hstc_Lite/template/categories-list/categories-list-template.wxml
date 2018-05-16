@@ -1,0 +1,4 @@
+<import src="../categories-item/categories-item-template.wxml" />
+<template name="categoriesList">
+
+</template>

@@ -1,0 +1,11 @@
+<template name="commentsItem">
+     <view class='comment-item'>
+           <image class='comment-item-head' src="{{head}}"></image>
+        <view class='comment-item-owner'>
+                <text class='comment-item-name'>{{name}}</text>
+                <text class='comment-item-comment'>评论内容：</text>
+                <text class='comment-item-comment'>{{commentTest}}</text>
+            </view>
+        </view>
+</template>
+

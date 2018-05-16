@@ -1,0 +1,9 @@
+<template name="categoryItem" >
+    <view class="category-page">
+        <image class='category-left' src='{{img}}'></image>
+        <view class='category-tap'>
+            <text class='category-title'>{{title}}</text>
+        </view>
+        <image class='category-right' src='/images/right.png'></image>
+    </view>
+</template>

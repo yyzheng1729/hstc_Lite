@@ -1,0 +1,7 @@
+/* pages/single-category/single-category.wxss */
+@import "../../template/single-category-item/single-category-item-template.wxss";
+
+.scroll-single-category {
+    height: 1300rpx;
+}
+

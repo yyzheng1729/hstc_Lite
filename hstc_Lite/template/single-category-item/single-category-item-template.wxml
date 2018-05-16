@@ -1,0 +1,7 @@
+<template name="singleCategoryItem">
+    <view class='line'></view>
+    <view class='single-category-item'>
+        <text class='single-category-item-title'>{{home_title}}</text>
+        <image class="single-category-item-image" src='{{home_image}}'></image>
+    </view>
+</template>

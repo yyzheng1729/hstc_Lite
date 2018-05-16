@@ -1,0 +1,28 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #7b7b7b;
+    padding: 5px;
+}
+
+.home-image{
+    width: 250rpx;
+    height: 160rpx;
+    border-radius: 5px;
+    margin-left: 5px;
+} 
+
+.home-text{
+    width: 450rpx;
+    display: flex;
+    flex-direction: column;
+    padding: 30rpx 20rpx;
+}
+
+.home-title{
+    font-size: 35rpx;
+    letter-spacing: 5rpx;
+    margin-bottom: 18rpx;
+}
