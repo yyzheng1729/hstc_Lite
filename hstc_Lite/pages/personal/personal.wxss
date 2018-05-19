@@ -20,12 +20,6 @@
     margin-left: 12px;
 }
 
-.line {
-    width: 100%;
-    height: 20rpx;
-    background-color: #eee;
-}
-
 .personal-item {
     display: flex;
     flex-direction: row;

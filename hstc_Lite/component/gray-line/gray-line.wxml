@@ -1,0 +1,2 @@
+<!--component/gray-line/gray-line.wxml-->
+<view class='line'></view>

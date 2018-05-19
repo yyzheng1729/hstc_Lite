@@ -1,0 +1,6 @@
+/* component/gray-line/gray-line.wxss */
+.line {
+    width: 100%;
+    height: 20rpx;
+    background-color: #eee;
+}

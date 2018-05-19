@@ -1,5 +1,5 @@
 {
-    "pages": [
+    "pages": [  
         "pages/homes/home",
         "pages/details/detail",
         "pages/personal/personal",
@@ -8,7 +8,9 @@
         "pages/index/index",
         "pages/publish/publish",
         "pages/personal-collection/personal-collection",
-        "pages/personal-info/personal-info"
+        "pages/personal-info/personal-info",
+        "component/navigation-button/navigation-button",
+        "component/gray-line/gray-line"
     ],
     "window": {
         "navigationBarBackgroundColor": "#cc3333",

@@ -1,3 +1,7 @@
 {
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": true,
+    "usingComponents":{
+        "navigation-button": "../../component/navigation-button/navigation-button",
+        "gray-line":"../../component/gray-line/gray-line"
+    }
 }

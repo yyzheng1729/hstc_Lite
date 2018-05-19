@@ -31,7 +31,7 @@ var content = [
     },
     {
         id: 4,
-        home_image: "../../images/tengxun.jpg",
+        home_image: "../../images/touxiang0.jpg",
         home_title: "我就是新闻内容哦撒阿萨德发我就是就是...4",
         star_count: 52,
         home_image_star: "../../images/chat.png",

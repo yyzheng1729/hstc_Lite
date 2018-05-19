@@ -3,7 +3,9 @@
     <image class='personal-img' src='/images/touxiang.jpeg'></image>
     <text class='personal-name'>我是谁</text>
 </view>
-<view class='line'></view>
+
+<gray-line></gray-line>
+
 <view class='personal-item' bindtap='onJumpMyInformation'>
     <image class='personal-item-img' src='/images/personal-info.png'></image>
     <text class='personal-item-text' >我的信息</text>
@@ -24,7 +26,9 @@
     <text class='personal-item-text' >关于</text>
     <image class='personal-item-right' src='/images/right.png'></image>
 </view>
-<view class='line'></view>
+
+<gray-line></gray-line>
+
 <view class='personal-tip'>
     <text>更多内容敬请期待</text>
 </view>

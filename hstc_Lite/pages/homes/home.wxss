@@ -10,21 +10,6 @@ swiper image {
     height: 450rpx;
 }
 
-.hotText {
-    padding: 10px 0;
-    margin-bottom: 10px;
-    color: #ff0000;
-     letter-spacing: 2rpx; 
-    font-weight: 20px;
-    border-bottom: 1px solid #ff0000;
-    border-top: 1px solid #ff0000;
-}
-
-.hotText text{
-    margin: 0 10px;
-    font-size: 40rpx;
-}
-
 .icon-publish{
     width: 100rpx;
     height: 100rpx;
