@@ -24,10 +24,9 @@ Page({
             },
             {
                 "header_id": 3,
-                "header_image": "../../images/touxiang.jpeg"
+                "header_image": "../../images/touxiang0.jpg"
             }
         ];
-
         this.setData({
             content: contentAll.content,
             imagesPath: imagesPath

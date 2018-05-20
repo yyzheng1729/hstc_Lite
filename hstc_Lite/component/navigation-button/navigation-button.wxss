@@ -14,13 +14,14 @@
 }
 
 .box-item-img{
-    width: 70rpx;
-    height: 70rpx;
+    width: 80rpx;
+    height: 80rpx;
     border-radius: 50%;
+    border: 1px solid #bebebe;
     margin: 0 auto;
 }
 
 .box-item-text{
-    font-size: 30rpx;
+    font-size: 25rpx;
     text-align: center;
 }

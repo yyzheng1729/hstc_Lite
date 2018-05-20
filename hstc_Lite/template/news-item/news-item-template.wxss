@@ -3,7 +3,7 @@
     flex-direction: row;
     margin-bottom: 40rpx;
     background-color: #fff;
-    border-bottom: 1px solid #7b7b7b;
+    border-bottom: 1px solid #bebebe;
     padding: 5px;
 }
 

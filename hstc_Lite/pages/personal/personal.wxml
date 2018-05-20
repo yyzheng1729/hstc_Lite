@@ -1,6 +1,6 @@
 <!--pages/personal/personal.wxml-->
 <view class='personal-container'>
-    <image class='personal-img' src='/images/touxiang.jpeg'></image>
+    <image class='personal-img' src='/images/touxiang0.jpg'></image>
     <text class='personal-name'>我是谁</text>
 </view>
 

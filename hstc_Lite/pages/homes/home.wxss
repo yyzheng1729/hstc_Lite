@@ -18,3 +18,11 @@ swiper image {
     right: 20px;
     z-index: 100;
 }
+
+.info-title{
+    padding-top: 5rpx;
+    padding-bottom: 15rpx;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    color: #bebebe;
+}
