@@ -1,1 +1,55 @@
 /* pages/personal-info/personal-info.wxss */
+
+.box{
+    height: 500rpx;
+    margin-bottom: 30rpx;
+}
+
+.bg {
+    width: 100%;
+    height: 500rpx;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    opacity: 0.1;
+}
+
+.info{
+    position: absolute;
+    z-index: 2;
+    top: 110rpx;
+    left: 280rpx;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.head {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+}
+
+.box text {
+    margin-top: 20rpx;
+    font-size: 50rpx;
+}
+
+.line-info{
+    height: 100rpx;
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.biaoqian{
+    font-size: 45rpx;
+    line-height: 100rpx;
+    padding-left: 15rpx;
+}
+
+.real-info{
+    font-size: 45rpx;
+    float: right;
+    line-height: 100rpx;
+    padding-right: 20rpx;
+}

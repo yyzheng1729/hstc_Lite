@@ -1,2 +1,16 @@
 <!--pages/personal-info/personal-info.wxml-->
-<text>pages/personal-info/personal-info.wxml</text>
+<view class='box'>
+    <image class='bg' src='/images/touxiang0.jpg'></image>
+    <view class='info'>
+        <image class='head' src='/images/touxiang0.jpg'></image>
+        <text>东东</text>
+    </view>
+</view>
+
+<view class='line-info'>
+    <text class='biaoqian'>个人详情信息</text>
+</view>
+<view class='line-info'>
+    <text class='biaoqian'>微信昵称</text>
+    <text class='real-info'>东东</text>
+</view>
