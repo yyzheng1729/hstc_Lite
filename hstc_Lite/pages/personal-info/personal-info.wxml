@@ -1,11 +1,5 @@
 <!--pages/personal-info/personal-info.wxml-->
-<view class='box'>
-    <image class='bg' src='/images/touxiang0.jpg'></image>
-    <view class='info'>
-        <image class='head' src='/images/touxiang0.jpg'></image>
-        <text>东东</text>
-    </view>
-</view>
+<mine-head-img></mine-head-img>
 
 <view class='line-info'>
     <text class='biaoqian'>个人详情信息</text>

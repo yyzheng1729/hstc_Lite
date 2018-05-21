@@ -1,0 +1,8 @@
+<!--component/mine-head-img/mine-head-img.wxml-->
+<view class='box'>
+    <image class='bg' src='/images/touxiang0.jpg'></image>
+    <view class='info'>
+        <image class='head' src='/images/touxiang0.jpg'></image>
+        <text>东东</text>
+    </view>
+</view>

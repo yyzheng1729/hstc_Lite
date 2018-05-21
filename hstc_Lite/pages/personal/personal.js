@@ -80,5 +80,23 @@ Page({
         wx.navigateTo({
             url: '../personal-info/personal-info'
         })
+    },
+
+    /**
+     * 跳转到 我的信息 页面
+     */
+    onJumpMyPublish: function () {
+        wx.navigateTo({
+            url: '../personal-publish/personal-publish'
+        }) 
+    },
+
+    /**
+     * 跳转到 我的关于 页面
+     */
+    onJumpAbout:function () {
+        wx.navigateTo({
+            url: '../about/about'
+        }) 
     }
 })

@@ -9,8 +9,8 @@
         "pages/publish/publish",
         "pages/personal-collection/personal-collection",
         "pages/personal-info/personal-info",
-        "component/navigation-button/navigation-button",
-        "component/gray-line/gray-line"
+        "pages/personal-publish/personal-publish",
+        "pages/about/about"
     ],
     "window": {
         "navigationBarBackgroundColor": "#cc3333",
