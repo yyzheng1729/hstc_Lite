@@ -20,7 +20,9 @@
         <input type="text" cursor-spacing='10' placeholder="写评论..." placeholder-style="color:gray;margin-left:10rpx;" bindblur='onBindblur' bindconfirm="onBindConfirm"></input>
     </view>
     <view class='icon-image-group'>
+        <image src='/images/comment.png'></image>
         <image src='/images/collection.png'></image>
+        <image src='/images/complain.png'></image>
         <image src='/images/share.png'></image>
     </view>
 </view>

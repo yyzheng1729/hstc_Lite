@@ -1,2 +1,37 @@
 <!--pages/about/about.wxml-->
-<mine-head-img></mine-head-img>
+<view class='container'>
+<view class='item'>
+ <view class='title'>韩师招聘兼职</view>
+ <text class='sub-title'>兼职·招聘·校园</text>
+ 
+</view>
+
+<view class='dashed item'></view>
+
+<view class='item'>
+<image src='../../images/地址.png' class='img'></image>
+<text class='text'>广东省潮州市湘桥区桥东街道</text>
+</view>
+
+<view class='item'>
+<image src='../../images/团队.png' class='img'></image>
+<text class='text'>韩师FFF团</text>
+</view>
+
+<view class='item'>
+<image src='../../images/电话.png' class='img'></image>
+<text class='text'>86-0768-2318310</text>
+</view>
+
+<view class='item'>
+<image src='../../images/QQ.png' class='img'></image>
+<text class='text'>1159973635</text>
+</view>
+
+
+<view class='item'>
+<image src='../../images/网站.png' class='img'></image>
+<text class='text'>http://www.hstc.edu.cn/</text>
+</view>
+
+</view>

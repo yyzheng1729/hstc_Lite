@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: row;
     border-top: 1px solid #bebebe;
-    padding:15rpx 0;
+    padding: 15rpx 0;
     background-color: white;
 }
 
@@ -55,7 +55,7 @@
 .bottom input {
     font-size: 30rpx;
     height: 40px;
-    width: 350rpx;
+    width: 250rpx;
     border-radius: 8px;
     background-color: #eee;
     padding-left: 70rpx;
@@ -69,7 +69,7 @@
 }
 
 .icon-image-group image {
-    width: 70rpx;
-    height: 70rpx;
+    width: 60rpx;
+    height: 60rpx;
     margin-right: 30rpx;
 }

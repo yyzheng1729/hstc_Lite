@@ -1,1 +1,10 @@
 /* pages/personal-collection/personal-collection.wxss */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 80rpx;
+    align-items: center;
+    justify-content: center;
+}

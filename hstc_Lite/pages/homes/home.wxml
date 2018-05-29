@@ -12,7 +12,7 @@
 
 <navigation-button bindmyevent="onJumpTap" ></navigation-button>
 
-<gray-line></gray-line>
+<gray-line />
 
 <view class='info-title'>
     <text decode="{{true}}">—&nbsp;&nbsp;&nbsp;&nbsp;招聘信息&nbsp;&nbsp;&nbsp;&nbsp;—</text>

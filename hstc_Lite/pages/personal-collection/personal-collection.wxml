@@ -1,2 +1,9 @@
 <!--pages/personal-collection/personal-collection.wxml-->
+
 <mine-head-img></mine-head-img>
+
+<view class='container'>
+    <view wx:if="{{!hasData}}">
+        <image src='../../images/nothing.jpg' mode='widthFix'></image>
+    </view>
+</view>

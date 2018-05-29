@@ -1,2 +1,26 @@
-<!--pages/publish/publish.wxml-->
-<text>pages/publish/publish.wxml</text>
+
+<form bindsubmit="formSubmit">
+<view class='detail-container'>
+<view>
+  <text class='news-title'>招聘简介:</text>
+  <input class='introduce' name="introduce" type='text' placeholder="请输入信息"></input>
+
+  <!-- <image class='news-image' src='{{newsData.home_image}}'></image> -->
+  <text class='news-title'>招聘详情:</text>
+  <textarea name="introduce-detail" placeholder='请输入详情介绍' class='introduce'></textarea>
+
+  <text class='news-title'>联系电话:</text>
+  <input class='introduce' name="phone" type='number' placeholder="请输入号码"></input>
+
+  <button bindtap='uploadImg' >上传图片</button>
+
+  <!-- <text class='news-title'>图片预览:</text> -->
+  <image src='{{imgSrc}}'></image>
+  </view>
+
+   <view class='submit'> 
+    <button form-type='submit' type='primary' >发布招聘信息</button>
+   </view> 
+   </view>
+</form>
+
